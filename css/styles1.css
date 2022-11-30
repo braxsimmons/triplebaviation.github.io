@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: black;
+    background-color: grey;
+}
+li {
+    font-size: 13px;
+    font-family: Italic;
+    font-weight: normal;
+}
+a{     
+color: maroon;
+text-decoration: none;
+}
+
+a:hover{ 
+    text-decoration: underline;
+    /* font-weight: bolder;
+    font-size: 18px; */
+}
+
+a:visited{
+    color: coral;
+}
+
+h1{ 
+    color:white;
+    font-size: 16px;
+}
+
+.resumelistheading {
+    font-weight: bold;
+    font-style: normal;
+}
+.underline {text-decoration: underline;}
+
+.bold{font-weight: bold;
+}
+.justify{text-align: justify;}
+
+
+.homebgd {
+    background-image: url('../images/hawaii\ background.jpeg');
+    background-position: top right;
+    background-repeat: repeat;
+}
+
+
+.box1{
+    border-width: 1px;
+    border-style: solid;
+    border-color: blueviolet;
+
+    /* border: 1px solid red */
+
+}
+
+.box2{
+    padding: 5px;
+
+}
+/* Wouldnt normally use just the word 'Box' */
+.box3{
+    margin: 55px;
+
+}
+/* Allow for spacing between sentances */
